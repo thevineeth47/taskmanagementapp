@@ -1,0 +1,32 @@
+/* src/App.css */
+
+.app-container {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+.category-slider {
+  margin: 20px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.category-slider button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.category-slider button:hover {
+  background-color: #0056b3;
+}
